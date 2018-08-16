@@ -1,0 +1,187 @@
+/*font-family: 'Roboto Condensed', sans-serif; // FAT FONT*/
+/*font-family: 'Lato', sans-serif; //STANDARD FONT*/
+html, body { 
+	background: #C5C6C7;	
+	font-size: 18px; 
+	font-family: 'Lato', sans-serif; 
+	line-height: 1.25; 
+	-webkit-font-smoothing: antialiased; 
+	text-rendering: optimizeLegibility;
+}
+@media (min-width: 420px) and (max-width: 1600px){
+  html, body { 
+    font-size: calc( 18px + (20 - 18) * ( (100vw - 420px) / (1600 - 420) ));
+  }
+}
+@media (min-width: 1600px){
+   html, body { 
+     font-size: 20px;
+   }
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+	margin: 0;	
+}
+
+address {
+	display: inline;
+}
+
+.vert:before ,.vert:after {
+	height: 24px;
+}
+
+.sub-heading {
+	text-transform: uppercase;
+}
+
+.hero-graphic {
+	max-height: 200px;
+	overflow: hidden;
+}
+
+.hero-inner {
+	padding-bottom: 24px;
+	text-align: center;
+}
+
+.hero-inner img {
+	width: 100px;
+	display: block;
+	margin: -50px auto 0;
+}
+
+.hero-inner ul {
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.hero-inner li {
+	display: inline;
+	margin: 0 4px;
+}
+
+.hero-inner li a{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	background: #0B0C10;
+	color: #C5C6C7;
+	text-align: center;
+}
+
+.nav-bar {
+	background: #0B0C10;
+	padding: 10px 0;
+}
+
+.nav-bar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.nav-bar li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.nav-bar a {
+	padding: 2px 5px;
+	text-transform: uppercase;
+	color: #f8931f;
+}
+
+.about, .social {
+	padding: 24px 0;
+	background: #1F2833;
+	color:#C5C6C7;
+}
+
+.projects {
+	padding: 24px 0 0;
+}
+
+.project{
+	background: #FAFAFA;
+}
+
+.project-img img{
+	width: calc(100% + 30px);
+	margin-left: -15px;
+}
+
+.project-copy {
+	padding: 24px;
+}
+
+.contact {
+	padding: 24px 0;
+	background: url('../images/jackson-ms.jpg');
+	color: #C5C6C7;
+}
+
+.contact ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.contact li {
+	margin-bottom: 10px;
+}
+
+.contact i {
+	margin-right: 10px;
+}
+
+.contact a {
+	color: #C5C6C7;
+}
+
+.social ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.social li {
+	display: inline;
+}
+
+.social li a{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 50%;
+	background: #0B0C10;
+	color: #C5C6C7;
+	text-align: center;
+}
+
+
+@media (min-width: 768px) {
+	.project{
+		margin-bottom: 24px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.vert:before ,.vert:after {
+		height: 32px;
+	}
+	.hero-graphic {
+		max-height: 700px;
+	}	
+}
