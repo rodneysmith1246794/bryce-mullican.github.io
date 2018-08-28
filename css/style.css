@@ -64,9 +64,21 @@ address {
 	}	
 }
 
+@media (min-width: 992px) {
+	.hero-graphic {
+		max-height: 500px;
+	}	
+}
+
 @media (min-width: 1200px) {
 	.hero-graphic {
 		max-height: 700px;
+	}	
+}
+
+@media (min-width: 1600px) {
+	.hero-graphic img{
+		width: 100%;
 	}	
 }
 
